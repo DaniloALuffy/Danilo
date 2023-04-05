@@ -1,12 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.shortcuts import render
-from .models import *
-from django.views.decorators import gzip
-from django.http import StreamingHttpResponse
-import cv2
-import numpy as np
-import threading
 #
 #
 #@gzip.gzip_page

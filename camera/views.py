@@ -4,7 +4,6 @@ from django.shortcuts import render
 from .models import *
 from django.views.decorators import gzip
 from django.http import StreamingHttpResponse
-from pyzbar.pyzbar import decode
 import cv2
 import numpy as np
 import threading
